@@ -14,6 +14,7 @@
 		777D895A24CC9A8B00F90D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777D895824CC9A8B00F90D09 /* LaunchScreen.storyboard */; };
 		777D896624CC9D9900F90D09 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D896524CC9D9900F90D09 /* PushButton.swift */; };
 		777D896824CCB0B100F90D09 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777D896724CCB0B100F90D09 /* CounterView.swift */; };
+		77FE11B524CDCA6000CBFF95 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FE11B424CDCA6000CBFF95 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		777D895B24CC9A8B00F90D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		777D896524CC9D9900F90D09 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
 		777D896724CCB0B100F90D09 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		77FE11B424CDCA6000CBFF95 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				777D896724CCB0B100F90D09 /* CounterView.swift */,
+				77FE11B424CDCA6000CBFF95 /* GraphView.swift */,
 				777D896524CC9D9900F90D09 /* PushButton.swift */,
 				777D895324CC9A8900F90D09 /* Main.storyboard */,
 				777D895824CC9A8B00F90D09 /* LaunchScreen.storyboard */,
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FE11B524CDCA6000CBFF95 /* GraphView.swift in Sources */,
 				777D895224CC9A8900F90D09 /* ViewController.swift in Sources */,
 				777D894E24CC9A8900F90D09 /* AppDelegate.swift in Sources */,
 				777D896624CC9D9900F90D09 /* PushButton.swift in Sources */,
