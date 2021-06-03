@@ -3,7 +3,6 @@
 Utility for working with Get Outfit server written in [swift](https://swift.org).
 - let to sheetURL URL of google sheet
 ## How it works
----------------
 - call function with URL of google sheet
  ```swift
  var table = parser.fetchSheet(from: sheetURL)
