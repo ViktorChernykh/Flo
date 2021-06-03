@@ -1,11 +1,11 @@
 #  Acoola-Box-Backend
 
 Utility for working with Get Outfit server written in [swift](https://swift.org).
-* let to sheetURL URL of google sheet
+- let to sheetURL URL of google sheet
 How it works
 ---------------
 - call function with URL of google sheet
-```
+```swift
 var table = parser.fetchSheet(from: sheetURL)
 ```
 - downloads a google sheet in .tsv format
@@ -16,12 +16,12 @@ var table = parser.fetchSheet(from: sheetURL)
 You can use [Xcode Playground](https://apps.apple.com/app/xcode/id497799835) for development
 
 ## Compile
-  ```bash
-  swiftc acoola_get_parameters.swift
-  ```
+```bash
+swiftc acoola_get_parameters.swift
+```
 
 ## Start
-    ```bash
-    ./acoola_get_parameters
-    ```
+```bash
+./acoola_get_parameters
+```
 
